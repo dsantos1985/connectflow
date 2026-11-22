@@ -1,0 +1,17 @@
+node_modules/
+dist/
+*.log
+server/data.json
+data/data.json
+.env
+
+meta-webhook-token.txt
+
+.env.*
+!.env.example
+*.pem
+*.key
+*.sqlite
+*.sqlite3
+*.db
+*.tmp

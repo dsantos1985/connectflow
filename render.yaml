@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: connectflow-demo
+    runtime: docker
+    plan: free
+    envVars:
+      - key: HOST
+        value: 0.0.0.0
+      - key: PORT
+        value: "3333"
+      - key: COOKIE_SECURE
+        value: "true"
+      - key: DATA_FILE
+        value: /tmp/connectflow-demo.json
